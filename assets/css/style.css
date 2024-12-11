@@ -41,12 +41,19 @@
   border-radius: 10px;
   border-bottom: 4px solid #0d6efd;
 }
+.services h6{
+  color: gray;
+}
 
 .services a {
   text-decoration: none;
 }
-.services:hover {
+.services:hover{
   background-color: #0d6efd;
+  color: #fff !important;
+  
+}
+.services:hover *{
   color: #fff !important;
   
 }
